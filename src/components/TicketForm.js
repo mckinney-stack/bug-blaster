@@ -37,7 +37,7 @@ export default function TicketForm() {
             </div>
             <div>
                 <label>Description</label>
-                <textarea type="text" value={title} className="form-input" onChange={e => setDescription(e.target.value)}></textarea>
+                <textarea type="text" value={description} className="form-input" onChange={e => setDescription(e.target.value)}></textarea>
             </div>
 
             <fieldset className="priority-fieldset">
