@@ -9,7 +9,7 @@ export default function TicketList({tickets, dispatch}) {
                 tickets.map(ticket => (
                     <TicketItem key={ticket.id} ticket={ticket} dispatch={dispatch}></TicketItem>
                 ))
-            }
+            };
         </div>
     );  
 }
